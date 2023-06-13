@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="./Assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Dashboard</h1>
+    <form id="searchForm">
+      <input type="text" id="cityInput" placeholder="Enter a city name">
+      <button type="submit">Search</button>
+    </form>
+    <div id="searchHistory"></div>
+    <div id="currentWeather"></div>
+  </div>
+
+  <script src="./Assets/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=1b808dbe6e49e6e5a020262fdc6e45d4&libraries=places"></script>
+</body>
+</html>
